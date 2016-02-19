@@ -2,10 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.schema</groupId>
-    <artifactId>company-api</artifactId>
+    <artifactId>company</artifactId>
     <version>1.0</version>
   </parent>
-  <artifactId>company-core-api</artifactId>
-  
-  <groupId>org.schema.company-api</groupId>
+  <groupId>org.schema.company</groupId>  
+  <artifactId>company-core-api</artifactId>  
+  <name>Company Core Service API</name>
+
 </project>

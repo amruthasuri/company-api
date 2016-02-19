@@ -68,4 +68,12 @@ public class Company {
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+	
+	public List<BeneficialOwner> getBeneficialOwners() {
+		return beneficialOwners;
+	}
+
+	public void setBeneficialOwners(List<BeneficialOwner> beneficialOwners) {
+		this.beneficialOwners = beneficialOwners;
+	}	
 }

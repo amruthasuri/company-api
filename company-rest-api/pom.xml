@@ -8,6 +8,13 @@
 	<properties>
 	</properties>
 
+
+	<parent>
+		<groupId>org.schema</groupId>
+		<artifactId>company</artifactId>
+		<version>1.0</version>
+	</parent>
+	
 	<dependencies>
 
 		<dependency>
@@ -17,7 +24,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.schema.company-api</groupId>
+			<groupId>org.schema.company</groupId>
 			<artifactId>company-core-api</artifactId>
 			<version>1.0</version>
 		</dependency>
@@ -33,9 +40,4 @@
 
 	</dependencies>
 
-	<parent>
-		<groupId>org.schema</groupId>
-		<artifactId>company-api</artifactId>
-		<version>1.0</version>
-	</parent>
 </project>

@@ -1,5 +1,6 @@
 package org.schema.company.service;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.schema.company.model.Company;
@@ -14,18 +15,18 @@ public class CompanyService implements ICompanyService {
 	CompanyRepository repository;
 	
 	@Override
-	public void createCompany(Company company) {
+	public void create(Company company) {
 		repository.save(company);
 	}
 	
 	@Override
-	public void updateCompany(Company company) {
+	public void update(Company company) {
 		repository.save(company);
 	}
 
 	@Override
-	public void deleteCompany(Company company) {
-		repository.delete(company);
+	public void delete(Serializable companyId) {
+		repository.delete(companyId);
 	}
 	
 	@Override

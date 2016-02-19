@@ -8,7 +8,7 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.schema</groupId>
-  <artifactId>company-api</artifactId>
+  <artifactId>company</artifactId>
   <version>1.0</version>
   <name>Company API</name>
 
@@ -36,6 +36,19 @@
 	        <artifactId>spring-context</artifactId>
 	    </dependency>   
    </dependencies>
+        
+<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+</build>
         
   <modules>
   	<module>company-service-core</module>
